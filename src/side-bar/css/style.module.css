@@ -1,0 +1,35 @@
+
+.sideBar {
+    position: fixed;
+    width: 20%;
+    border-right: 2px solid gray;
+    height: 100%;
+    padding: 10px;
+}
+
+.projects {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    display: block; 
+    border: 1.5px solid gray;
+    margin-right: 10px;
+    width: 120px;
+    padding-left: 10px;
+    padding: 5px;
+}
+h3 {
+    margin: 0;
+}
+
+.container {
+    padding-left: 50%;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
